@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BatchExecution_Build_Number">
+
+  <test thread-count="5" name="Build_Test_Results">
+    <classes>
+    <!-- <Add classes her, which calss you want run current build ( Batch execution)> -->
+      <class name="com.testscenarios.ClassTemplate"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
